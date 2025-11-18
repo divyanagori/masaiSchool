@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.schedule {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 120px repeat(5, 1fr);
+    gap: 10px;
+}
+
+.time {
+    background: #b3e5fc;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cell {
+    background: #f8c6dc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+}
